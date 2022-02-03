@@ -15,7 +15,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/panta/machineid"
+	"github.com/ezodude/machineid"
 )
 
 const usageStr = `

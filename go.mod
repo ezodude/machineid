@@ -1,3 +1,3 @@
-module github.com/panta/machineid
+module github.com/ezodude/machineid
 
 go 1.15

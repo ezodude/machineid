@@ -8,8 +8,8 @@
 
 ## Fork
 
-[This](https://github.com/panta/machineid) is a fork of [github.com/denisbrodbeck/machineid](https://github.com/denisbrodbeck/machineid).
-The fork solve some issues in the original library (docker support and customizable machine-id file, macOS cron support, ...).
+[This](https://github.com/ezodude/machineid) is a fork of [github.com/panta/machineid](https://github.com/panta/machineid) which is fork of [github.com/denisbrodbeck/machineid](https://github.com/denisbrodbeck/machineid).
+This fork fixes a compilation bug. While `github.com/panta/machineid` solves some issues in the original library (docker support and customizable machine-id file, macOS cron support, ...).
 
 ## Main Features
 
@@ -23,13 +23,13 @@ The fork solve some issues in the original library (docker support and customiza
 Get the library with
 
 ```bash
-go get github.com/panta/machineid
+go get github.com/ezodude/machineid
 ```
 
 You can also add the cli app directly to your `$GOPATH/bin` with
 
 ```bash
-go get github.com/panta/machineid/cmd/machineid
+go get github.com/ezodude/machineid/cmd/machineid
 ```
 
 ## Usage
@@ -40,7 +40,7 @@ package main
 import (
   "fmt"
   "log"
-  "github.com/panta/machineid"
+  "github.com/ezodude/machineid"
 )
 
 func main() {
@@ -60,7 +60,7 @@ package main
 import (
   "fmt"
   "log"
-  "github.com/panta/machineid"
+  "github.com/ezodude/machineid"
 )
 
 func main() {
@@ -118,7 +118,7 @@ import (
   "crypto/hmac"
   "crypto/sha256"
   "fmt"
-  "github.com/panta/machineid"
+  "github.com/ezodude/machineid"
 )
 
 const appKey = "WowSuchNiceApp"
